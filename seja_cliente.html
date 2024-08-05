@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <header>
+        <div class="header-menu"> <!-- Adiciona um menu lateral ao cabeçalho -->
+            <div class="menu-content">
+                <h1>Royal Bank</h1>
+                <hr>
+                <ul>
+                    <li><a href="index.html">Página inicial</a></li>
+                    <li><a href="emprestimos.html">Empréstimos</a></li>
+                    <li><a href="seja_cliente.html">Seja nosso cliente</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+</header>
+
+<!-- Seção de Imagem com Título e Texto -->
+<section class="client-section">
+    <img src="imagens/sejacliente.png" alt="Seja nosso cliente">
+    <div class="client-info">
+        <h2>Seja nosso cliente</h2>
+        <p>Estamos prontos para ajudá-lo a alcançar seus objetivos financeiros com as melhores soluções de crédito e serviços personalizados. Nossa equipe de especialistas está aqui para oferecer o suporte necessário, garantindo que você encontre as opções mais adequadas às suas necessidades. Cadastre-se agora e descubra como podemos tornar seus planos realidade!</p>
+    </div>
+</section>
+
+<!-- Seção de Cadastro na página Seja Cliente -->
+<section class="signup-section-seja-cliente">
+    <h2>Cadastro</h2>
+    <div class="signup-form-box-seja-cliente">
+        <form action="#" method="post">
+            <div class="form-field-seja-cliente">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field-seja-cliente">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-field-seja-cliente">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-field-seja-cliente">
+                <label for="service">Serviço Desejado:</label>
+                <select id="service" name="service">
+                    <option value="emprestimo_pessoal">Empréstimo Pessoal</option>
+                    <option value="emprestimo_consignado">Empréstimo Consignado</option>
+                </select>
+            </div>
+            <div class="form-field-seja-cliente">
+                <label for="retired">
+                    <input type="checkbox" id="retired" name="retired">
+                    Aposentado?
+                </label>
+            </div>
+            <button type="submit" class="signup-button-seja-cliente">Cadastrar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-left">
+            <p><strong>Central de relacionamento RB</strong><br>0800 000 0000<br><br><br><br></p>
+            <p><strong>SAC</strong><br>0800 000 0000</p>
+        </div>
+        <div class="footer-right">
+            <p><strong>Whatsapp</strong><br>99 99999 9999<br><br><br><br></p>
+            <p><strong>Ouvidoria</strong><br>0800 000 0000</p>
+        </div>
+        <div class="social-icons">
+            <img src="imagens/instagram.png" alt="Ícone 1">
+            <img src="imagens/facebook.png" alt="Ícone 2">
+            <img src="imagens/telegram.png" alt="Ícone 3">
+            <img src="imagens/twitter.png" alt="Ícone 4">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
